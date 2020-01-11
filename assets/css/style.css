@@ -1,0 +1,140 @@
+p {
+	font-family: Open Sans;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto';
+}
+
+h1,
+h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6C57F2;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6C57F2;
+}
+
+.btn-cta, .btn-submit {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: #6C57F2;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 11px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(217, 98, 185, 0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(217, 98, 185, 0.6);
+    box-shadow: 0px 0px 10px 0px rgba(217, 98, 185, 0.6);
+}
+
+.btn-cta:hover, .btn-submit:hover {
+    color: white;
+    background-color: #D962B9;
+}
+
+#header {
+    height: 100px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+#header .btn-cta {
+	float: right;
+}
+#header .logo {
+	float: left;
+}
+
+.slide-img {
+    width: 95%;
+    float: right;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: #6C57F2;
+}
+
+.icon_box {
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.icon_box figure {
+    margin: 15px 0px 0px 0px;
+}
+.about_box {
+	height: 100px;
+	border-left: 4px solid #6C57F2;
+}
+.about_box p, .footer_cta_box h2 {
+	margin-bottom: 0px;
+}
+.about_img_desktop, .about_img_mobile {
+	width: 100%;
+}
+.footer_box h4 {
+	margin-bottom: 0px;
+}
+.footer_cta_box {
+    height: 100px;
+    margin: 100px 0px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+#abosulute_footer .container-fluid {
+	height: 100px;
+	background-color: #EAEAEA;
+}
+#abosulute_footer p {
+	margin-bottom: 0px;
+	color: #707070;
+	font-weight: 400;
+}
+.metapix_email_input {
+    height: 50px;
+    border: 1px solid #6C57F2;
+}
+#abosulute_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+@media (max-width: 576px) { 
+	#header {
+		height: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .footer_cta_box {
+		height: 170px;
+    }
+}
