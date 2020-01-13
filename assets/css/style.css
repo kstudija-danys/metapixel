@@ -50,16 +50,16 @@ h4 {
     background-color: #D962B9;
 }
 
-#header {
+header {
     height: 100px;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
-#header .btn-cta {
+header .btn-cta {
 	float: right;
 }
-#header .logo {
+header .logo {
 	float: left;
 }
 
@@ -124,7 +124,6 @@ h4 {
     border: 1px solid #6C57F2;
 }
 #abosulute_footer {
-    position: absolute;
     width: 100%;
   }
 @media (max-width: 576px) { 
@@ -134,7 +133,7 @@ h4 {
     h3 {
         font-size: 26px;
     }
-	#header {
+	header {
 		height: 150px;
     }
 }
