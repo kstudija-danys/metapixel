@@ -110,22 +110,22 @@ header .logo {
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
-#abosulute_footer .container-fluid {
+footer .container-fluid {
 	height: 100px;
 	background-color: #EAEAEA;
 }
-#abosulute_footer p {
+footer p {
 	margin-bottom: 0px;
 	color: #707070;
 	font-weight: 400;
 }
-.metapix_email_input {
+footer {
+    width: 100%;
+  }
+  .metapix_email_input {
     height: 50px;
     border: 1px solid #6C57F2;
 }
-#abosulute_footer {
-    width: 100%;
-  }
 @media (max-width: 576px) { 
     h1, h2 {
         font-size: 34px;
