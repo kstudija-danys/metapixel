@@ -97,10 +97,10 @@ header .logo {
 .about_box p, .footer_cta_box h2 {
 	margin-bottom: 0px;
 }
-.about_img_desktop, .about_img_mobile {
+.about_img {
 	width: 100%;
 }
-.footer_box h4 {
+.why_metapixel_box h4 {
 	margin-bottom: 0px;
 }
 .footer_cta_box {
